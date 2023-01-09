@@ -2,50 +2,50 @@ import {Sidebar} from "flowbite-react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {MDBCol} from "mdb-react-ui-kit";
 
-export default function SideNav(){
-    return(
+export default function SideNav() {
+    return (
         <MDBCol size='3'>
-        <div className="w-fit">
+            <div className="w-fit">
                 <Sidebar aria-label="Default sidebar example">
                     <Sidebar.Items>
                         <Sidebar.ItemGroup>
                             <Sidebar.Item
                                 href="#"
                             >
-                                <FontAwesomeIcon icon="coffee"/> Dashboard
+                                <FontAwesomeIcon icon="coffee"/> All Items
                             </Sidebar.Item>
                             <Sidebar.Item
                                 href="#"
-                                label="Pro"
                                 labelColor="alternative"
                             >
-                                Kanban
-                            </Sidebar.Item>
-                            <Sidebar.Item
-                                href="#"
-                                label="3"
-                            >
-                                Inbox
+                                Motor Vehicles
                             </Sidebar.Item>
                             <Sidebar.Item
                                 href="#"
                             >
-                                Users
+                                Furniture
+
                             </Sidebar.Item>
                             <Sidebar.Item
                                 href="#"
                             >
-                                Products
+
+                                Computing
                             </Sidebar.Item>
                             <Sidebar.Item
                                 href="#"
                             >
-                                Sign In
+                                Real Estate
                             </Sidebar.Item>
                             <Sidebar.Item
                                 href="#"
                             >
-                                Sign Up
+                                Electronics
+                            </Sidebar.Item>
+                            <Sidebar.Item
+                                href="#"
+                            >
+                                Software
                             </Sidebar.Item>
                         </Sidebar.ItemGroup>
                     </Sidebar.Items>
