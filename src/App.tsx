@@ -1,13 +1,18 @@
 import Login from "./ux/Login";
 import Register from "./ux/Register";
 import Nav from "./ux/Nav";
+import DashboardNav from "./ux/DashboardNav";
+import BidItem from "./ux/BidItem";
+import Dashboard from "./ux/Dashboard";
 
 function App() {
     return(
         <>
-            <Nav />
+            <DashboardNav/>
+            <Dashboard />
             {/*<Login />*/}
-            <Register />
+            {/*<Register />*/}
+            <BidItem />
         </>
     )
 }

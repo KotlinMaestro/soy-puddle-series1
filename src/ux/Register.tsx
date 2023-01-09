@@ -3,8 +3,8 @@ import {Button, Checkbox, Label, TextInput} from "flowbite-react";
 export default function Register() {
     return (
         <>
-            <div className="mx-4 mt-5 md:w-96 md:mx-auto shadow md border-gray-900 ">
-                <h3 className="text-center text-slate-700 mb-4 text-3xl">Soy Puddle Register</h3>
+            <div className="mx-4 mt-5 md:w-96 md:mx-auto shadow md ">
+                <h3 className="text-center text-slate-700 mb-4 text-3xl">Bidventory Register</h3>
                 <form className="flex mx-auto flex-col gap-4">
                     <div>
                         <div className="mb-2 block">
@@ -65,7 +65,7 @@ export default function Register() {
                             </a>
                         </Label>
                     </div>
-                    <Button type="submit">
+                    <Button className="bg-blue-400" type="submit">
                         Register new account
                     </Button>
                 </form>
