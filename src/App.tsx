@@ -5,8 +5,8 @@ import Register from "./ux/Register";
 function App() {
     return(
         <>
-            {/*<AddItem/>*/}
-            <Register/>
+            <AddItem/>
+            {/*<Register/>*/}
         </>
     )
 }
