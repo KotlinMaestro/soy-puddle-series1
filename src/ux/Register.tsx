@@ -1,8 +1,11 @@
 import {Button, Checkbox, Label, TextInput} from "flowbite-react";
+import Nav from "./Nav";
+import Footer from "./Footer";
 
 export default function Register() {
     return (
         <>
+            <Nav/>
             <div className="mx-4 mt-5 md:w-96 md:mx-auto shadow m-auto">
                 <h3 className="text-center text-slate-700 mb-4 text-3xl">Bidventory Register</h3>
                 <form className="flex mx-auto flex-col gap-4">
@@ -69,7 +72,8 @@ export default function Register() {
                         Register new account
                     </Button>
                 </form>
-                </div>
-            </ >
-            )
-            }
+            </div>
+            <Footer/>
+        </>
+    )
+}

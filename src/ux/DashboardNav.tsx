@@ -3,7 +3,7 @@ import {Avatar, Dropdown, Navbar} from "flowbite-react";
 export default function DashboardNav() {
     return (
         <Navbar
-            className="bg-blue-400"
+            className="bg-teal-300"
             fluid={true}
             rounded={true}
         >

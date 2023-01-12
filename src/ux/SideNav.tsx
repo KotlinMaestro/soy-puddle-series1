@@ -1,10 +1,8 @@
 import {Sidebar} from "flowbite-react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {MDBCol} from "mdb-react-ui-kit";
 
 export default function SideNav() {
     return (
-        <MDBCol size='3'>
             <div className="w-fit">
                 <Sidebar aria-label="Default sidebar example">
                     <Sidebar.Items>
@@ -50,7 +48,6 @@ export default function SideNav() {
                         </Sidebar.ItemGroup>
                     </Sidebar.Items>
                 </Sidebar>
-            </div>
-        </MDBCol>
+        </div>
     )
 }
